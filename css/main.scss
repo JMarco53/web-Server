@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #007AF3;
+}
+
+
+body {
+    background: #F2F2F2;
+    margin: 0;
+    font-family: 'Amazon Ember Cd RC Thin';
+}
+
+.navbar{
+    background: black;
+    padding: 1em;
+
+    .logo {
+        text-decoration: None;
+        font-weight: Bold;
+        color: black;
+        font-size: 1.2em;
+        span {
+            color: var(--primary-color);
+        }
+    }
+    nav {
+        display: none;
+    }
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+}
